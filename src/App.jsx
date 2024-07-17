@@ -5,7 +5,7 @@ import data from './assets/data.json'
 function App() {
 console.log(data);
   return (
-    <div>
+    <div className='wrapper container'>
       {
         data.length && data.map((el, index) => {
           return <Card key={index} data = {el}></Card>

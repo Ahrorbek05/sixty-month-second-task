@@ -3,7 +3,6 @@ import './index.css'
 export default function Card(props) {
     const {data} = props;
     return (
-        <div className="container">
      <div className="card">
         <div className="data-info">
         <img src={data.image} alt="" />
@@ -19,7 +18,6 @@ export default function Card(props) {
             </ul>
         </div>
 
-        </div>
         </div>
     )
 }
